@@ -1,0 +1,101 @@
+/* Green Background */
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+/* Game Title and Instructions */
+#title {
+    font-size: 64px;
+    color: white;
+    background-color: cyan;
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid grey;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.instructions {
+    font-size: 20px;
+    color: white;
+    background-color: cyan;
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid grey;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Target Score and Wins/Losses */
+#pretty-number {
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    background-color:cyan; 
+    float: left;
+    clear: both;
+    padding: 30px;
+    position: relative;
+    left: 600px;
+    border: 3px solid grey;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#winsnlosses {
+    float: left;
+    clear: both;
+    color: white;
+    font-size: 20 px;
+    background-color: cyan;
+    padding: 30px;
+    position: relative;
+    left: 720px;
+    bottom: 100px;
+    border: 3px solid grey;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Crystal Pictures */
+.crystal-container {
+    margin: auto;
+    width: 50%;
+    position: relative;
+    left: 30px;
+}
+
+img:hover {
+    outline: 3px solid grey;
+}
+
+/* Current Score */
+#score-is {
+    font-size: 34px;
+    color: white;
+    background-color: cyan;
+    margin: 20px;
+    float: left;
+    clear: both;
+    position: relative;
+    left: 580px;
+    border: 3px solid grey;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#current-score {
+    font-size: 34px;
+    text-align: center;
+    float: left;
+    clear: both;
+    color: white;
+    background-color: cyan;
+    margin: 20px;
+    padding: 50px 140px 50px 100px;
+    position: relative;
+    left: 580px;
+    border: 3px solid grey;
+    text-shadow: 2px 2px 4px #000000;
+}
